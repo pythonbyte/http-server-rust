@@ -1,9 +1,14 @@
-# http-server-rust
-Implementing an HTTP Server from scratch using Rust 🦀
-
 ## Introduction
 
-This project is a simple implementation of an HTTP server from scratch using Rust. The server is capable of handling dynamic requests. The server is capable of handling multiple requests concurrently using threads.
+This project is an implementation of an HTTP server from scratch using Rust. The server is capable of handling dynamic requests and multiple requests concurrently using threads.
+
+**Key Features**
+
+* 🔧 Built entirely from scratch, no external HTTP libraries
+* 🦀 Leverages Rust's safety and concurrency features
+* 🌐 Implements core HTTP/1.1 functionalities
+* 🚦 Handles multiple concurrent connections efficiently
+* 📚 Educational resource for understanding HTTP internals and Rust networking
 
 ## Usage
 

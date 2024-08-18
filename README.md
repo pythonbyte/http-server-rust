@@ -24,10 +24,16 @@ curl -v http://localhost:4221/echo/test
 **Response**
 
 ```bash
+* Connected to localhost (127.0.0.1) port 4221
+> GET /echo/test HTTP/1.1
+> Host: localhost:4221
+> User-Agent: curl/8.7.1
+> Accept: */*
+>
 * Request completely sent off
 < HTTP/1.1 200 OK
 < Content-Type: text/plain
-< Content-Length:4
+< Content-Length: 4
 <
 * Connection #0 to host localhost left intact
 test%

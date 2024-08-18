@@ -8,9 +8,6 @@ use std::thread;
 use flate2::write::GzEncoder;
 use flate2::Compression;
 
-const POST: &str = "POST";
-const GET: &str = "GET";
-
 #[derive(Debug)]
 enum HttpMethod {
     Get,
